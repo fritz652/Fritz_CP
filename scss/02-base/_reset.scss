@@ -13,18 +13,11 @@
     list-style: none;
   }
 
-body {
-    background-color: $Background;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr  1fr 1fr;
+  p{
+    text-align: center;
+  }
 
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer  footer";
-    gap: 50px;
-}
+
 
 
 

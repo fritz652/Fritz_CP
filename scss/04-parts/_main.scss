@@ -2,8 +2,21 @@ main {
     grid-area: main;
     display:grid;
     place-content: center;
-    button {
-        display: grid;
-        justify-items:center 
+    img{
+        height: 80%;
+        margin-top: 20px;
+    }
+    .buttons-home {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        button {
+            display: grid;
+            justify-items:center;
+            @include primary-button;
+        }
+    }
+    p {
+        color: $primary;
+        font-size: medium;
     }
 }

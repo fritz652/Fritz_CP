@@ -5,7 +5,11 @@ header {
     place-content: center;
     background-color: $terciary;
     @include text-center;
-   /*  img{
+    img{
         display: none;
-    } */
+    }
+    p{
+        font-size: medium;
+    }
+
 }

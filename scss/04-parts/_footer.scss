@@ -3,10 +3,7 @@ footer {
     margin-top: 50px;
     ul{ 
         display: flex;
-        gap:3%;
+        gap:5%;
         place-content: center;
-        li{
-            /* grid-column: 1fr 1fr 1fr; */
-        }
     }
 }

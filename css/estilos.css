@@ -19,17 +19,15 @@ p {
 
 body {
   background-color: #2C2C2C;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5em 1fr 1fr 10em;
-  grid-template-areas: "header header" "main main" "main main" "footer  footer";
-  /* gap: 50px; */
-}
+  grid-template-rows:  5em  1fr 1fr 10em;
 
-header {
-  /* display:grid;
-  text-align: center;
-  justify-content: space-around; */
+  grid-template-areas: 
+  "header header"
+  "main main"
+  "main main"
+  "footer  footer"; */
 }
 
 header {
@@ -48,6 +46,9 @@ main {
 main img {
   height: 80%;
   margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 main .buttons-home {
   margin-top: 20px;
@@ -66,6 +67,7 @@ main .buttons-home button {
   justify-content: center;
   cursor: pointer;
   margin-top: 10px;
+  margin-bottom: 30px;
   stroke: none;
 }
 main .buttons-home button p {
@@ -82,7 +84,7 @@ footer {
 }
 footer ul {
   display: flex;
-  gap: 5%;
+  gap: 3%;
   place-content: center;
 }
 footer ul li {

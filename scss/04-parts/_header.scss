@@ -6,7 +6,8 @@ header {
 
 header {
     grid-area: header;
-    display:grid;
+    display:flex;
+    height: 50px;
     /* place-content: center; */
    
   }

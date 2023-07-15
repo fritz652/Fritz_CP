@@ -9,6 +9,10 @@ html {
   font-size: 62.5%;
 }
 
+li {
+  list-style: none;
+}
+
 body {
   background-color: #2C2C2C;
   display: grid;
@@ -26,7 +30,8 @@ header {
 
 header {
   grid-area: header;
-  display: grid;
+  display: flex;
+  height: 50px;
   /* place-content: center; */
 }
 

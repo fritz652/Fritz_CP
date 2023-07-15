@@ -4,5 +4,8 @@ header {
     height: 50px;
     place-content: center;
     background-color: $terciary;
-    
+    @include text-center;
+   /*  img{
+        display: none;
+    } */
 }

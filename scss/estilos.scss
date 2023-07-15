@@ -1,8 +1,12 @@
 @import "./01-utilities/variables";
-@import "./02-base/reset";
 @import "./01-utilities/mixins";
-@import "./03-layot/header";
-@import "./06-footer/footer";
+@import "./02-base/reset";
+@import "./03-layot/grids";
+@import "./04-parts/header";
+@import "./04-parts/main";
+@import "./04-parts/footer";
+
+
 
 
 
